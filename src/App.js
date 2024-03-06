@@ -2,7 +2,7 @@ import "./App.css";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
 import { Route, Routes } from "react-router-dom";
-import { Sidebar, Topbar } from "./views/global";
+import { PanelSidebar, Topbar } from "./views/global";
 import {
   Bar,
   Calendar,
@@ -25,7 +25,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <div className="app">
-          <Sidebar />
+          <PanelSidebar />
           <main className="content">
             <Topbar />
             <Routes>

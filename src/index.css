@@ -32,3 +32,17 @@ body,
 ::-webkit-scrollbar-track:hover {
   background: var(--track-background);
 }
+
+.ps-sidebar-root {
+  border: none !important;
+}
+
+.ps-menu-button:hover {
+  background: transparent !important;
+  color: #7759ff !important;
+}
+
+.ps-active {
+  color: #7759ff !important;
+  background: transparent !important;
+}

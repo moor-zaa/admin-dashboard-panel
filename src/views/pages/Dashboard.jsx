@@ -1,5 +1,16 @@
+import { Box } from "@mui/material";
 import React from "react";
 
 export default function Dashboard() {
-  return <div>index</div>;
+  return (
+    <Box m="20px">
+      <Box
+        display={"flex"}
+        justifyContent={"space-between"}
+        alignItems={"center"}
+      >
+        {/* <Header title="DASHBOARD" subtitle="Welcome to your dashboard" /> */}
+      </Box>
+    </Box>
+  );
 }
